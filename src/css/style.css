@@ -51,7 +51,16 @@ main {
   display: flex;
   gap: 1rem;
 }
+.page-header__list-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
 
+.page-header__icon, .page-header__mobile-icon {
+  width:  24px;
+}
 .page-header__logo {
   margin-left: 12px;
   justify-self: flex-start;
@@ -91,7 +100,7 @@ main {
 /* Fonts */
 /*https://www.fontspace.com/flick-font-f108100*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   .page-header__list {
     justify-content: space-around;
   }
