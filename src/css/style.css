@@ -66,6 +66,10 @@ main {
   justify-self: flex-start;
 }
 
+.page-header__icon--not-allowed{
+  cursor: not-allowed;
+}
+
 .page-header__mobile-menu {
   display: none;
 }
