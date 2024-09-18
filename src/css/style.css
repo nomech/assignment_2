@@ -27,6 +27,8 @@ main {
   flex-grow: 1;
 }
 
+
+
 .page-header, .page-footer {
   background-color: #000000;
 }
@@ -80,9 +82,23 @@ main {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 8px;
   overflow: hidden;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
+.player-card__number{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 24px;
+}
+
+.player-card__nationality{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+}
 .player-card__picture {
   width: 100%;
 }
