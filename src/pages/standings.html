@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/_standings.css">
+    <title>Juventus - Standings</title>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="page-header__nav">
+            <a href="#" rel="noreferrer" class="page-header__logo">
+                <img src="../assets/icons/logo.png" alt="A picture of Juventus team logo" class="page-header__logo-image">
+            </a>
+            <ul class="page-header__list">
+                <li class="page-header__list-item">
+                    <img src="../assets/icons/users-solid.svg" alt="Icon for the roster" class="page-header__icon">
+                    <a href="../index.html" rel="noreferrer" class="page-header__link">Roster</a>
+                </li>
+                <li class="page-header__list-item">
+                    <img src="../assets/icons/list-solid.svg" alt="Icon for the league table" class="page-header__icon">
+                    <a href="./standings.html" rel="noreferrer" class="page-header__link">Standings</a>
+                </li>
+                <li class="page-header__list-item">
+                    <img src="../assets/icons/ticket-solid.svg" alt="Icon for the tickets page" class="page-header__icon">
+                    <a href="#" rel="noreferrer" class="page-header__link page-header__link--disabled">Tickets</a>
+                </li>
+                <li class="page-header__list-item">
+                    <img src="../assets/icons/shop-solid.svg" alt="Icon for the shop" class="page-header__icon">
+                    <a href="#" rel="noreferrer" class="page-header__link page-header__link--disabled">Shop</a>
+                </li>
+            </ul>
+            <div class="page-header__mobile-drawer">
+                <input type="checkbox" id="menu-toggle" class="page-header__menu-toggle">
+                <label for="menu-toggle">
+                    <img src="../assets/icons/bars-solid.svg" alt="Icon for the menu" class="page-header__menu-icon">
+                </label>
+                <ul class="page-header__mobile-list">
+                    <li class="page-header__mobile-list-item">
+                        <img src="../assets/icons/users-solid.svg" alt="Icon for the roster" class="page-header__mobile-icon">
+                        <a href="#" rel="noreferrer" class="page-header__mobile-link">Roster</a>
+                    </li>
+                    <li class="page-header__mobile-list-item">
+                        <img src="../assets/icons/list-solid.svg" alt="Icon for the league table" class="page-header__mobile-icon">
+                        <a href="#" rel="noreferrer" class="page-header__mobile-link">League Table</a>
+                    </li>
+                    <li class="page-header__mobile-list-item">
+                        <img src="../assets/icons/ticket-solid.svg" alt="Icon for the tickets page" class="page-header__mobile-icon">
+                        <a href="#" rel="noreferrer" class="page-header__mobile-link">Tickets</a>
+                    </li>
+                    <li class="page-header__mobile-list-item">
+                        <img src="../assets/icons/shop-solid.svg" alt="Icon for the shop" class="page-header__mobile-icon">
+                        <a href="#" rel="noreferrer" class="page-header__mobile-link">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <table class="standings">
+            <thead class="standings__header">
+                <tr class="standings__row">
+                    <th class="standings__column standings__column--hide-mobile">Position</th>
+                    <th class="standings__column standings__column--show-mobile">Pos.</th>
+                    <th class="standings__column ">Team</th>
+                    <th class="standings__column standings__column--hide-mobile">Played</th>
+                    <th class="standings__column standings__column--show-mobile">P</th>
+                    <th class="standings__column standings__column--hide-mobile">Won</th>
+                    <th class="standings__column standings__column--show-mobile">W</th>
+                    <th class="standings__column standings__column--hide-mobile">Drawn</th>
+                    <th class="standings__column standings__column--show-mobile">D</th>
+                    <th class="standings__column standings__column--hide-mobile">Lost</th>
+                    <th class="standings__column standings__column--show-mobile">L</th>
+                    <th class="standings__column standings__column--hide-mobile">Goals For</th>
+                    <th class="standings__column standings__column--hide-mobile">Goals Against</th>
+                    <th class="standings__column standings__column--hide-mobile">Goal Difference</th>
+                    <th class="standings__column standings__column--hide-mobile">Points</th>
+                    <th class="standings__column standings__column--show-mobile">Pts.</th>
+                </tr>
+            </thead>
+            <tbody class="standings__body">
+                <tr class="standings__row">
+                    <td class="standings__cell">1</td>
+                    <td class="standings__cell">Juventus</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">26</td>
+                    <td class="standings__cell">5</td>
+                    <td class="standings__cell">7</td>
+                    <td class="standings__cell standings__cell--hide-mobile">76</td>
+                    <td class="standings__cell standings__cell--hide-mobile">43</td>
+                    <td class="standings__cell standings__cell--hide-mobile">33</td>
+                    <td class="standings__cell">83</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">2</td>
+                    <td class="standings__cell">Inter Milan</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">24</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">4</td>
+                    <td class="standings__cell standings__cell--hide-mobile">81</td>
+                    <td class="standings__cell standings__cell--hide-mobile">36</td>
+                    <td class="standings__cell standings__cell--hide-mobile">45</td>
+                    <td class="standings__cell">82</td>
+                </tr>
+
+                <tr class="standings__row">
+                    <td class="standings__cell">3</td>
+                    <td class="standings__cell">Atalanta</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">23</td>
+                    <td class="standings__cell">9</td>
+                    <td class="standings__cell">6</td>
+                    <td class="standings__cell standings__cell--hide-mobile">98</td>
+                    <td class="standings__cell standings__cell--hide-mobile">48</td>
+                    <td class="standings__cell standings__cell--hide-mobile">50</td>
+                    <td class="standings__cell">78</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">4</td>
+                    <td class="standings__cell">AC Milan</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">21</td>
+                    <td class="standings__cell">9</td>
+                    <td class="standings__cell">8</td>
+                    <td class="standings__cell standings__cell--hide-mobile">74</td>
+                    <td class="standings__cell standings__cell--hide-mobile">41</td>
+                    <td class="standings__cell standings__cell--hide-mobile">33</td>
+                    <td class="standings__cell">72</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">5</td>
+                    <td class="standings__cell">Napoli</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">21</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">7</td>
+                    <td class="standings__cell standings__cell--hide-mobile">63</td>
+                    <td class="standings__cell standings__cell--hide-mobile">41</td>
+                    <td class="standings__cell standings__cell--hide-mobile">22</td>
+                    <td class="standings__cell">73</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">6</td>
+                    <td class="standings__cell">Roma</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">18</td>
+                    <td class="standings__cell">8</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell standings__cell--hide-mobile">68</td>
+                    <td class="standings__cell standings__cell--hide-mobile">58</td>
+                    <td class="standings__cell standings__cell--hide-mobile">10</td>
+                    <td class="standings__cell">62</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">7</td>
+                    <td class="standings__cell">Lazio</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">18</td>
+                    <td class="standings__cell">8</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell standings__cell--hide-mobile">60</td>
+                    <td class="standings__cell standings__cell--hide-mobile">52</td>
+                    <td class="standings__cell standings__cell--hide-mobile">8</td>
+                    <td class="standings__cell">62</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">8</td>
+                    <td class="standings__cell">Verona</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell">11</td>
+                    <td class="standings__cell standings__cell--hide-mobile">47</td>
+                    <td class="standings__cell standings__cell--hide-mobile">51</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-4</td>
+                    <td class="standings__cell">57</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">9</td>
+                    <td class="standings__cell">Sassuolo</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">14</td>
+                    <td class="standings__cell">14</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell standings__cell--hide-mobile">64</td>
+                    <td class="standings__cell standings__cell--hide-mobile">56</td>
+                    <td class="standings__cell standings__cell--hide-mobile">8</td>
+                    <td class="standings__cell">56</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">Udinese</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">13</td>
+                    <td class="standings__cell standings__cell--hide-mobile">56</td>
+                    <td class="standings__cell standings__cell--hide-mobile">50</td>
+                    <td class="standings__cell standings__cell--hide-mobile">6</td>
+                    <td class="standings__cell">55</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">11</td>
+                    <td class="standings__cell">Bologna</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell">11</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell standings__cell--hide-mobile">52</td>
+                    <td class="standings__cell standings__cell--hide-mobile">65</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-13</td>
+                    <td class="standings__cell">47</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell">Cagliari</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">11</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell standings__cell--hide-mobile">52</td>
+                    <td class="standings__cell standings__cell--hide-mobile">56</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-4</td>
+                    <td class="standings__cell">45</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">13</td>
+                    <td class="standings__cell">Fiorentina</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">13</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell standings__cell--hide-mobile">47</td>
+                    <td class="standings__cell standings__cell--hide-mobile">58</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-11</td>
+                    <td class="standings__cell">43</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">14</td>
+                    <td class="standings__cell">Spezia</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">9</td>
+                    <td class="standings__cell">14</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell standings__cell--hide-mobile">52</td>
+                    <td class="standings__cell standings__cell--hide-mobile">68</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-16</td>
+                    <td class="standings__cell">41</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell">Genoa</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">9</td>
+                    <td class="standings__cell">12</td>
+                    <td class="standings__cell">17</td>
+                    <td class="standings__cell standings__cell--hide-mobile">45</td>
+                    <td class="standings__cell standings__cell--hide-mobile">57</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-12</td>
+                    <td class="standings__cell">39</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">16</td>
+                    <td class="standings__cell">Torino</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">7</td>
+                    <td class="standings__cell">16</td>
+                    <td class="standings__cell">15</td>
+                    <td class="standings__cell standings__cell--hide-mobile">48</td>
+                    <td class="standings__cell standings__cell--hide-mobile">68</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-20</td>
+                    <td class="standings__cell">37</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">17</td>
+                    <td class="standings__cell">Crotone</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">6</td>
+                    <td class="standings__cell">5</td>
+                    <td class="standings__cell">27</td>
+                    <td class="standings__cell standings__cell--hide-mobile">45</td>
+                    <td class="standings__cell standings__cell--hide-mobile">92</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-47</td>
+                    <td class="standings__cell">23</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">18</td>
+                    <td class="standings__cell">Parma</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">3</td>
+                    <td class="standings__cell">11</td>
+                    <td class="standings__cell">24</td>
+                    <td class="standings__cell standings__cell--hide-mobile">39</td>
+                    <td class="standings__cell standings__cell--hide-mobile">86</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-47</td>
+                    <td class="standings__cell">20</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">19</td>
+                    <td class="standings__cell">Fiorentina</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">5</td>
+                    <td class="standings__cell">7</td>
+                    <td class="standings__cell">26</td>
+                    <td class="standings__cell standings__cell--hide-mobile">45</td>
+                    <td class="standings__cell standings__cell--hide-mobile">84</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-39</td>
+                    <td class="standings__cell">22</td>
+                </tr>
+                <tr class="standings__row">
+                    <td class="standings__cell">20</td>
+                    <td class="standings__cell">Verona</td>
+                    <td class="standings__cell">38</td>
+                    <td class="standings__cell">4</td>
+                    <td class="standings__cell">10</td>
+                    <td class="standings__cell">24</td>
+                    <td class="standings__cell standings__cell--hide-mobile">35</td>
+                    <td class="standings__cell standings__cell--hide-mobile">83</td>
+                    <td class="standings__cell standings__cell--hide-mobile">-48</td>
+                    <td class="standings__cell">22</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>

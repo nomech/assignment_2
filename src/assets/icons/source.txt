@@ -1,0 +1,2 @@
+icons: font awesome
+logo: Juventus.com

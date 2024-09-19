@@ -57,9 +57,8 @@
     display: none;
   }
 
-  .page-header__mobile-menu {
+  .page-header__mobile-drawer{
     display: block;
-    position: relative;
     width: 32px;
     align-self: end;
     margin-right: 12px;
@@ -83,7 +82,7 @@
     background-color: black;
     right: 0;
     gap: 12px;
-    top: 124px;
+    top: 120px;
   }
 
   .page-header__mobile-list-item {
