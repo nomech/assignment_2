@@ -41,6 +41,7 @@
 .page-header__link--not-allowed {
   cursor: not-allowed;
 }
+
 .page-header__menu-toggle, .page-header__mobile-list, .page-header__mobile-list  {
   display: none;
 }
@@ -69,7 +70,7 @@
     flex-direction: column;
     gap: 54px;
     padding: 2rem 2rem;
-    width: 375px;
+    width: 100vw;
   }
 
   .page-header__nav {
