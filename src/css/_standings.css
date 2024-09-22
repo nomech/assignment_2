@@ -1,71 +1,47 @@
 
-@import './_page-header.css';
-@import './_page-footer.css';
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-color: #ffffff;
-list-style: none;
-font-family: "Flicks", sans-serif;
+.standings {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.465);
+  flex-grow: 1;
 }
 
-body {
-display: flex;
-flex-direction: column;
-min-height: 100vh;
-background: url("../assets/images/stadium.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+.standings-table {
+  border-spacing: 0 1px;
+  width: 100vw;
+  padding: 1rem;
 }
 
-main {
-display: flex;
-background-color: rgba(0, 0, 0, 0.465);
-flex-grow: 1;
-
-}
-
-.standings{
-border-spacing: 0 1px;
-width: 100vw;
-padding: 1rem;
-}
-
-.standings__column{
-padding: 1.5rem 0;
+.standings__column {
+  padding: 1.5rem 0;
 }
 
 .standings__cell {
-text-align: center;
-padding: 1rem 0;
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.standings__row{
-background-color: rgba(0, 0, 0, 0.65);
+.standings__row {
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
-
-.standings__column--hide-mobile, .standings__cell--hide-mobile{
-display: table-cell;
+.standings__column--hide-mobile,
+.standings__cell--hide-mobile {
+  display: table-cell;
 }
 
-.standings__column--show-mobile, .standings__cell--show-mobile{
-display: none;
+.standings__column--show-mobile,
+.standings__cell--show-mobile {
+  display: none;
 }
-
 
 @media screen and (max-width: 875px) {
-
-
-.standings__column--hide-mobile, .standings__cell--hide-mobile{
+  .standings__column--hide-mobile,
+  .standings__cell--hide-mobile {
     display: none;
-}
+  }
 
-.standings__column--show-mobile, .standings__cell--show-mobile{
+  .standings__column--show-mobile,
+  .standings__cell--show-mobile {
     display: table-cell;
-}
+  }
 }

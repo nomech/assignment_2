@@ -1,14 +1,13 @@
 .player-card {
   display: flex;
   flex-direction: column;
-  width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
   background-color: rgba(0, 0, 0, 0.65);
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s linear;
 }
 
 .player-card:hover {
@@ -39,4 +38,5 @@
   flex-grow: 1;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
