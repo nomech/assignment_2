@@ -1,0 +1,20 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  list-style: none;
+font-family: "Flicks", sans-serif;
+}
+
+:root{
+  --default: 1rem;
+  --xsmall: 0.5rem;
+  --small: 0.75rem;
+  --medium: 1.5rem;
+  --large: 2rem;
+  --light-transparent: rgba(0, 0, 0, 0.465);
+  --heavy-transparent: rgba(0, 0, 0, 0.65);
+}

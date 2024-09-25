@@ -1,27 +1,35 @@
 
 .standings {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.465);
-  flex-grow: 1;
+  background-color:var(--light-transparent);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .standings-table {
   border-spacing: 0 1px;
   width: 100vw;
-  padding: 1rem;
+  padding: var(--default);
 }
 
 .standings__column {
-  padding: 1.5rem 0;
+  padding: var(--default) 0;
 }
 
 .standings__cell {
   text-align: center;
-  padding: 1rem 0;
+  padding: var(--default) 0;
 }
 
 .standings__row {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: var(--heavy-transparent);
+}
+
+.standings__row:hover{
+  border: 1px solid #ffffff;
 }
 
 .standings__column--hide-mobile,

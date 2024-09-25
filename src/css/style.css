@@ -1,9 +1,3 @@
-@import './_player-card.css';
-@import './_page-header.css';
-@import './_page-footer.css';
-@import './_card-section.css';
-@import './_standings.css';
-@import './_utility.css';
 
 body {
   display: flex;

@@ -4,61 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official roster of Juventus Football Club, featuring player profiles and information.">
     <title>Juventus - Roster</title>
+    <link rel="stylesheet" href="./css/utility.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/page-header.css">
+    <link rel="stylesheet" href="./css/card-section.css">
+    <link rel="stylesheet" href="./css/player-card.css">
+    <link rel="stylesheet" href="./css/page-footer.css">
+
 </head>
 
 <body>
     <header class="page-header">
+        <!-- navigation menu -->
         <nav class="page-header__nav">
-            <a href="#" class="page-header__logo">
-                <img src="./assets/icons/logo.png" alt="A picture of Juventus team logo"
+
+            <!-- Menu logo -->
+            <a href="#"  class="page-header__logo">
+                <img src="./assets/icons/logo.png" alt="Juventus team logo"
                     class="page-header__logo-image">
             </a>
+            <!-- Menu content -->
             <ul class="page-header__list">
+                <!-- Link to the roster-->
                 <li class="page-header__list-item">
-                    <img src="./assets/icons/users-solid.svg" alt="Icon for the roster" class="page-header__icon">
-                    <a href="./index.html" class="page-header__link">Roster</a>
+                    <img src="./assets/icons/users-solid.svg" alt="Roster icon" class="page-header__icon">
+                    <a href="./index.html"  class="page-header__link">Roster</a>
                 </li>
+                <!-- Link to the standings -->
                 <li class="page-header__list-item">
-                    <img src="./assets/icons/list-solid.svg" alt="Icon for the league table" class="page-header__icon">
-                    <a href="./pages/standings.html" class="page-header__link">Standings</a>
+                    <img src="./assets/icons/list-solid.svg" alt="League table icon" class="page-header__icon">
+                    <a href="./pages/standings.html"  class="page-header__link">Standings</a>
                 </li>
+
+                <!-- Placeholder item -->
                 <li class="page-header__list-item">
-                    <img src="./assets/icons/ticket-solid.svg" alt="Icon for the tickets page"
+                    <img src="./assets/icons/ticket-solid.svg" alt="Ticket icon"
                         class="page-header__icon">
-                    <a href="#" class="page-header__link page-header__link--not-allowed">Tickets</a>
+                    <a href="#"  class="page-header__link page-header__link--disabled">Tickets</a>
                 </li>
+
+                <!-- Placeholder item -->
                 <li class="page-header__list-item">
-                    <img src="./assets/icons/shop-solid.svg" alt="Icon for the shop" class="page-header__icon">
-                    <a href="#" class="page-header__link page-header__link--not-allowed">Shop</a>
+                    <img src="./assets/icons/shop-solid.svg" alt="Shop icon" class="page-header__icon">
+                    <a href="#"  class="page-header__link page-header__link--disabled">Shop</a>
                 </li>
             </ul>
+
+            <!-- Mobile navigation menu -->
             <div class="page-header__mobile-drawer">
                 <input type="checkbox" id="menu-toggle" class="page-header__menu-toggle">
+
+                <!-- Mobile menu icon -->
                 <label for="menu-toggle">
                     <img src="./assets/icons/bars-solid.svg" alt="Icon for the menu" class="page-header__menu-icon">
                 </label>
+                
+                <!-- Mobile menu content -->
                 <ul class="page-header__mobile-list">
+                    <!-- Link to the roster-->
                     <li class="page-header__mobile-list-item">
-                        <img src="./assets/icons/users-solid.svg" alt="Icon for the roster"
+                        <img src="./assets/icons/users-solid.svg" alt="Roster icon"
                             class="page-header__mobile-icon">
-                        <a href="./index.html" class="page-header__mobile-link">Roster</a>
+                        <a href="./index.html"  class="page-header__mobile-link">Roster</a>
                     </li>
+                    <!-- Link to the standings -->
                     <li class="page-header__mobile-list-item">
-                        <img src="./assets/icons/list-solid.svg" alt="Icon for the league table"
+                        <img src="./assets/icons/list-solid.svg" alt="League table icon"
                             class="page-header__mobile-icon">
-                        <a href="./pages/standings.html" class="page-header__mobile-link">League Table</a>
+                        <a href="./pages/standings.html"  class="page-header__mobile-link">Standings</a>
                     </li>
+
+                    <!-- Placeholder item -->
                     <li class="page-header__mobile-list-item">
-                        <img src="./assets/icons/ticket-solid.svg" alt="Icon for the tickets page"
+                        <img src="./assets/icons/ticket-solid.svg" alt="Ticket icon"
                             class="page-header__mobile-icon">
-                        <a href="#" class="page-header__mobile-link">Tickets</a>
+                        <a href="#"  class="page-header__mobile-link">Tickets</a>
                     </li>
+
+                    <!-- Placeholder item -->
                     <li class="page-header__mobile-list-item">
-                        <img src="./assets/icons/shop-solid.svg" alt="Icon for the shop"
+                        <img src="./assets/icons/shop-solid.svg" alt="Shop icon"
                             class="page-header__mobile-icon">
-                        <a href="#" class="page-header__mobile-link">Shop</a>
+                        <a href="#"  class="page-header__mobile-link">Shop</a>
                     </li>
                 </ul>
             </div>
@@ -66,16 +95,25 @@
     </header>
 
     <main>
+        <!-- Page content -->
         <section class="card-section">
+            <!-- Player cards repeated -->
             <div class="player-card">
+                <!-- Display player number -->
                 <p class="player-card__number" title="Jersey number">1</p>
+                <!-- A flag indicating the player nationality -->
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/mattia.png" alt="a picture of Mattia Perin" title="Mattia Perin"
+                <!-- An image of the player -->
+                <img src="./assets/players/mattia.png" alt="A picture of Mattia Perin" title="Mattia Perin"
                     class="player-card__picture">
+                <!-- Player information setion -->
                 <div class="player-card__information">
+                    <!-- Player name -->
                     <h3 class="player-card__name">Mattia Perin</h3>
+                    <!-- Player position -->
                     <p class="player-card__position"><strong>Goalkeeper</strong></p>
+                    <!-- Player age -->
                     <p class="player-card__age"><strong>Age - 32</strong></p>
                 </div>
             </div>
@@ -83,7 +121,7 @@
                 <p class="player-card__number" title="Jersey number">23</p>
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/carlo.png" alt="a picture of Carlo Pinsoglio" title="Carlo Pinsoglio"
+                <img src="./assets/players/carlo.png" alt="A picture of Carlo Pinsoglio" title="Carlo Pinsoglio"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Carlo Pinsoglio</h3>
@@ -95,7 +133,7 @@
                 <p class="player-card__number" title="Jersey number">29</p>
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/michele.png" alt="a picture of Michele Di Gregorio"
+                <img src="./assets/players/michele.png" alt="A picture of Michele Di Gregorio"
                     title="Michele Di Gregorio" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Michele Di Gregorio</h3>
@@ -107,7 +145,7 @@
                 <p class="player-card__number" title="Jersey number">3</p>
                 <img src="./assets/flags/brazil.png" alt="A picture of the Brazilian flag" title="The Brazilian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/gleison.png" alt="a picture of Gleison Bremer" title="Gleison Bremer"
+                <img src="./assets/players/gleison.png" alt="A picture of Gleison Bremer" title="Gleison Bremer"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Gleison Bremer</h3>
@@ -119,7 +157,7 @@
                 <p class="player-card__number" title="Jersey number">4</p>
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/federico.png" alt="a picture Federico Gatti" title="Federico Gatti"
+                <img src="./assets/players/federico.png" alt="A picture Federico Gatti" title="Federico Gatti"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Federico Gatti</h3>
@@ -131,7 +169,7 @@
                 <p class="player-card__number" title="Jersey number">6</p>
                 <img src="./assets/flags/brazil.png" alt="A picture of the Brazilian flag" title="The Brazilian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/luiz.png" alt="a picture of Luiz da Silva Danilo"
+                <img src="./assets/players/luiz.png" alt="A picture of Luiz da Silva Danilo"
                     title="Luiz da Silva Danilo" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Luiz da Silva Danilo</h3>
@@ -143,7 +181,7 @@
                 <p class="player-card__number" title="Jersey number">15</p>
                 <img src="./assets/flags/france.png" alt="A picture of the French flag" title="The french flag"
                     class="player-card__nationality">
-                <img src="./assets/players/pierre.png" alt="a picture of Pierre Kalulu" title="Pierre Kalulu"
+                <img src="./assets/players/pierre.png" alt="A picture of Pierre Kalulu" title="Pierre Kalulu"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Pierre Kalulu</h3>
@@ -167,7 +205,7 @@
                 <p class="player-card__number" title="Jersey number">32</p>
                 <img src="./assets/flags/colombia.png" alt="A picture of the Colombian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/Juan_David.png" alt="a picture of Juan David Cabal" title="Juan David Cabal"
+                <img src="./assets/players/Juan_David.png" alt="A picture of Juan David Cabal" title="Juan David Cabal"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Juan David Cabal</h3>
@@ -191,7 +229,7 @@
                 <p class="player-card__number" title="Jersey number">40</p>
                 <img src="./assets/flags/sweden.png" alt="A picture of the Swedish flag" title="The swedish flag"
                     class="player-card__nationality">
-                <img src="./assets/players/Jonas_Jakob.png" alt="a picture of Jonas Jakob Rouhi"
+                <img src="./assets/players/Jonas_Jakob.png" alt="A picture of Jonas Jakob Rouhi"
                     title="Jonas Jakob Rouhi" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Jonas Jakob Rouhi</h3>
@@ -203,7 +241,7 @@
                 <p class="player-card__number" title="Jersey number">5</p>
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/manuel.png" alt="a picture of Manuel Locatelli" title="Manuel Locatelli"
+                <img src="./assets/players/manuel.png" alt="A picture of Manuel Locatelli" title="Manuel Locatelli"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Manuel Locatelli</h3>
@@ -215,7 +253,7 @@
                 <p class="player-card__number" title="Jersey number">8</p>
                 <img src="./assets/flags/netherland.png" alt="A picture of the Dutch flag" title="The dutch flag"
                     class="player-card__nationality">
-                <img src="./assets/players/teun.png" alt="a picture of Teun Koopmeiners" title="Teun Koopmeiners"
+                <img src="./assets/players/teun.png" alt="A picture of Teun Koopmeiners" title="Teun Koopmeiners"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Teun Koopmeiners</h3>
@@ -227,7 +265,7 @@
                 <p class="player-card__number" title="Jersey number">16</p>
                 <img src="./assets/flags/usa.png" alt="A picture of the American flag" title="The american flag"
                     class="player-card__nationality">
-                <img src="./assets/players/weston.png" alt="a picture of Weston McKennie" title="Weston McKennie"
+                <img src="./assets/players/weston.png" alt="A picture of Weston McKennie" title="Weston McKennie"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Weston McKennie</h3>
@@ -239,7 +277,7 @@
                 <p class="player-card__number" title="Jersey number">17</p>
                 <img src="./assets/flags/montenegro.png" alt="A picture of the Montenegro flag"
                     title="The montenegro flag" class="player-card__nationality">
-                <img src="./assets/players/vasilije.png" alt="a picture of Vasilije Adžić" title="Vasilije Adžić"
+                <img src="./assets/players/vasilije.png" alt="A picture of Vasilije Adžić" title="Vasilije Adžić"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Vasilije Adžić</h3>
@@ -251,7 +289,7 @@
                 <p class="player-card__number" title="Jersey number">18</p>
                 <img src="./assets/flags/brazil.png" alt="A picture of the Brazilian flag" title="The Brazilian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/melo.png" alt="a picture of Melo Arthur" title="Melo Arthur"
+                <img src="./assets/players/melo.png" alt="A picture of Melo Arthur" title="Melo Arthur"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Melo Arthur</h3>
@@ -263,7 +301,7 @@
                 <p class="player-card__number" title="Jersey number">19</p>
                 <img src="./assets/flags/france.png" alt="A picture of the French flag" title="The french flag"
                     class="player-card__nationality">
-                <img src="./assets/players/Khephren.png" alt="a picture of Khéphren Thuram" title="Khéphren Thuram"
+                <img src="./assets/players/Khephren.png" alt="A picture of Khéphren Thuram" title="Khéphren Thuram"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Khéphren Thuram</h3>
@@ -275,7 +313,7 @@
                 <p class="player-card__number" title="Jersey number">21</p>
                 <img src="./assets/flags/italy.png" alt="A picture of the Italian flag" title="The Italian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/nicolo_fagioli.png" alt="a picture of Nicoló Fagioli" title="Nicoló Fagioli"
+                <img src="./assets/players/nicolo_fagioli.png" alt="A picture of Nicoló Fagioli" title="Nicoló Fagioli"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Nicoló Fagioli</h3>
@@ -287,7 +325,7 @@
                 <p class="player-card__number" title="Jersey number">26</p>
                 <img src="./assets/flags/brazil.png" alt="A picture of the Brazilian flag" title="The Brazilian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/douglas.png" alt="a picture of Douglas Luiz" title="Douglas Luiz"
+                <img src="./assets/players/douglas.png" alt="A picture of Douglas Luiz" title="Douglas Luiz"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Douglas Luiz</h3>
@@ -299,7 +337,7 @@
                 <p class="player-card__number" title="Jersey number">7</p>
                 <img src="./assets/flags/portugal.png" alt="A picture of the Portuguese flag"
                     title="The portuguese flag" class="player-card__nationality">
-                <img src="./assets/players/francisco.png" alt="a picture of Francisco Conceição"
+                <img src="./assets/players/francisco.png" alt="A picture of Francisco Conceição"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Francisco Conceição</h3>
@@ -313,7 +351,7 @@
                 <p class="player-card__number" title="Jersey number">9</p>
                 <img src="./assets/flags/serbia.png" alt="A picture of the Serbian flag" title="The serbian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/dusan.png" alt="a picture of Dušan Vlahović" class="player-card__picture">
+                <img src="./assets/players/dusan.png" alt="A picture of Dušan Vlahović" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Dušan Vlahović</h3>
                     <p class="player-card__position"><strong>Forward</strong></p>
@@ -324,7 +362,7 @@
                 <p class="player-card__number" title="Jersey number">10</p>
                 <img src="./assets/flags/turkey.png" alt="A picture of the Turkish flag" title="The turkish flag"
                     class="player-card__nationality">
-                <img src="./assets/players/kenan.png" alt="a picture of Kenan Yildiz" class="player-card__picture">
+                <img src="./assets/players/kenan.png" alt="A picture of Kenan Yildiz" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Kenan Yildiz</h3>
 
@@ -337,7 +375,7 @@
                 <p class="player-card__number" title="Jersey number">11</p>
                 <img src="./assets/flags/argentina.png" alt="A picture of the Argentinian flag"
                     title="The argentinian flag" class="player-card__nationality">
-                <img src="./assets/players/nicolas_Ivan.png" alt="a picture of Nicolás Iván González"
+                <img src="./assets/players/nicolas_Ivan.png" alt="A picture of Nicolás Iván González"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Nicolás Iván González</h3>
@@ -349,7 +387,7 @@
                 <p class="player-card__number" title="Jersey number">14</p>
                 <img src="./assets/flags/poland.png" alt="A picture of the Polish flag" title="The polish flag"
                     class="player-card__nationality">
-                <img src="./assets/players/arkadiusz.png" alt="a picture of Arkadiusz Milik"
+                <img src="./assets/players/arkadiusz.png" alt="A picture of Arkadiusz Milik"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Arkadiusz Milik</h3>
@@ -361,7 +399,7 @@
                 <p class="player-card__number" title="Jersey number">22</p>
                 <img src="./assets/flags/usa.png" alt="A picture of the American flag" title="The american flag"
                     class="player-card__nationality">
-                <img src="./assets/players/timothy.png" alt="a picture of Timothy Weah" class="player-card__picture">
+                <img src="./assets/players/timothy.png" alt="A picture of Timothy Weah" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Timothy Weah</h3>
                     <p class="player-card__position"><strong>Forward</strong></p>
@@ -372,7 +410,7 @@
                 <p class="player-card__number" title="Jersey number">51</p>
                 <img src="./assets/flags/belgia.png" alt="A picture of the Belgian flag" title="The belgian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/samuel.png" alt="a picture of Samuel Mbangula Tshifunda"
+                <img src="./assets/players/samuel.png" alt="A picture of Samuel Mbangula Tshifunda"
                     class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Samuel Mbangula Tshifunda</h3>
@@ -383,7 +421,7 @@
             <div class="player-card player-card--coach">
                 <img src="./assets/flags/brazil.png" alt="A picture of the Brazilian flag" title="The Brazilian flag"
                     class="player-card__nationality">
-                <img src="./assets/players/thiago.png" alt="a picture of Thiago Motta" class="player-card__picture">
+                <img src="./assets/players/thiago.png" alt="A picture of Thiago Motta" class="player-card__picture">
                 <div class="player-card__information">
                     <h3 class="player-card__name">Thiago Motta</h3>
                     <p class="player-card__position"><strong>Coach</strong></p>
@@ -392,7 +430,9 @@
             </div>
         </section>
     </main>
+    <!-- Footer element -->
     <footer class="page-footer">
+        <!-- Footer text -->
         <p class="page-footer__text">© 2024 Juventus Football Club S.p.A. - All rights reserved</p>
     </footer>
     
