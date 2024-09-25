@@ -1,15 +1,14 @@
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #ffffff;
   list-style: none;
-font-family: "Flicks", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-:root{
+:root {
   --default: 1rem;
   --xsmall: 0.5rem;
   --small: 0.75rem;
