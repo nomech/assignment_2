@@ -43,7 +43,9 @@
 }
 .player-card__picture {
   width: 100%;
+  aspect-ratio: 3 / 4;  
 }
+
 
 .player-card__information {
   padding: var(--default);
