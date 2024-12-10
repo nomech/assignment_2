@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Official standings for Serie A league, featuring teams, stanings and scores.">
+    <meta name="author" content="NOMECH">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/utility.css">
@@ -16,47 +17,73 @@
 
 <body>
     <header class="page-header">
+
+        <!-- navigation menu -->
         <nav class="page-header__nav">
+
+            <!-- Menu logo -->
             <a href="../index.html" class="page-header__logo">
                 <img src="../assets/icons/logo.png" alt="Juventus team logo" class="page-header__logo-image">
             </a>
+
+            <!-- Menu content -->
             <ul class="page-header__list">
+
+                <!-- Link to the roster-->
                 <li class="page-header__list-item">
                     <img src="../assets/icons/users-solid.svg" alt="Roster icon" class="page-header__icon">
                     <a href="../index.html" class="page-header__link">Roster</a>
                 </li>
+
+                <!-- Link to the standings -->
                 <li class="page-header__list-item">
                     <img src="../assets/icons/list-solid.svg" alt="League table icon" class="page-header__icon">
                     <a href="./standings.html" class="page-header__link">Standings</a>
                 </li>
+
+                <!-- Placeholder item -->
                 <li class="page-header__list-item">
                     <img src="../assets/icons/ticket-solid.svg" alt="Ticket icon" class="page-header__icon">
                     <a href="#" class="page-header__link page-header__link--disabled">Tickets</a>
                 </li>
+
+                <!-- Placeholder item -->
                 <li class="page-header__list-item">
                     <img src="../assets/icons/shop-solid.svg" alt="Shop icon" class="page-header__icon">
                     <a href="#" class="page-header__link page-header__link--disabled">Shop</a>
                 </li>
             </ul>
+
+            <!-- Mobile navigation menu -->
             <div class="page-header__mobile-drawer">
                 <input type="checkbox" id="menu-toggle" class="page-header__menu-toggle">
+
+                <!-- Mobile menu icon -->
                 <label for="menu-toggle">
                     <img src="../assets/icons/bars-solid.svg" alt="Icon for the menu" class="page-header__menu-icon">
                 </label>
+
+                <!-- Link to the roster-->
                 <ul class="page-header__mobile-list">
                     <li class="page-header__mobile-list-item">
                         <img src="../assets/icons/users-solid.svg" alt="Roster icon" class="page-header__mobile-icon">
                         <a href="../index.html" class="page-header__mobile-link">Roster</a>
                     </li>
+
+                    <!-- Link to the standings -->
                     <li class="page-header__mobile-list-item">
                         <img src="../assets/icons/list-solid.svg" alt="League table icon"
                             class="page-header__mobile-icon">
                         <a href="./standings.html" class="page-header__mobile-link">Standings</a>
                     </li>
+
+                    <!-- Placeholder item -->
                     <li class="page-header__mobile-list-item">
                         <img src="../assets/icons/ticket-solid.svg" alt="Ticket icon" class="page-header__mobile-icon">
                         <a href="#" class="page-header__mobile-link">Tickets</a>
                     </li>
+
+                    <!-- Placeholder item -->
                     <li class="page-header__mobile-list-item">
                         <img src="../assets/icons/shop-solid.svg" alt="Shop icon" class="page-header__mobile-icon">
                         <a href="#" class="page-header__mobile-link">Shop</a>
@@ -66,7 +93,9 @@
         </nav>
     </header>
     <main>
+        <!-- Page content -->
         <section class="standings">
+            <!-- Standings table-->
             <table class="standings-table">
                 <thead class="standings__header">
                     <tr class="standings__row">
