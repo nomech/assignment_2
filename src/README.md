@@ -20,6 +20,7 @@ This project is a website for the Juventus roster. It includes a roster page dis
 - **CSS3**
 - **Font Awesome Icons**
 - **Netlify**
+- **Google Fonts**
 
 ## Resources
 
