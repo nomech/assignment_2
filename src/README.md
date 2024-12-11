@@ -25,3 +25,4 @@ This project is a website for the Juventus roster. It includes a roster page dis
 ## Resources
 
 [Images and stats](https://www.juventus.com/it/squadre/prima-squadra-maschile/rosa/)
+- [Autoprefixer CSS online](https://autoprefixer.github.io/)
